@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoFazenda: O Desafio da Terra</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game">
+
+<h1>🌎 EcoFazenda: O Desafio da Terra</h1>
+
+<div class="dashboard">
+
+<div class="card">
+💰 Dinheiro
+<span id="money">500</span>
+</div>
+
+<div class="card">
+🌾 Produção
+<span id="food">100</span>
+</div>
+
+<div class="card">
+🌱 Sustentabilidade
+<span id="eco">80</span>
+</div>
+
+<div class="card">
+😊 Comunidade
+<span id="community">70</span>
+</div>
+
+<div class="card">
+📅 Ano
+<span id="year">1</span>
+</div>
+
+</div>
+
+<div class="actions">
+
+<button onclick="plantCorn()">
+🌽 Plantar Milho
+</button>
+
+<button onclick="organicFarm()">
+🥬 Agricultura Orgânica
+</button>
+
+<button onclick="reforest()">
+🌳 Reflorestar
+</button>
+
+<button onclick="solarEnergy()">
+☀️ Energia Solar
+</button>
+
+<button onclick="sellFood()">
+🚚 Vender Produção
+</button>
+
+</div>
+
+<div id="events" class="events"></div>
+
+<div id="result" class="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
